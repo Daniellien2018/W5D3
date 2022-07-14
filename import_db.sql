@@ -76,7 +76,7 @@ VALUES
     (3,1);
 
 INSERT INTO
-    replies(body,parent_id,questions_id,author_id)
+    replies(body,parent_id,author_id,questions_id)
 VALUES
     ('hell yeah', NULL, 1, 2),
     ('thats that good good stuff', 1, 1, 1),
